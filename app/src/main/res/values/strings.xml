@@ -2,5 +2,6 @@
     <string name="app_name">HelloWorldApp</string>
 
     <string name="hello_world">Hello world! PIO was here</string>
+    <string name="pio_message">this message contains a BUG or a Feature, review is needed</string>
     <string name="action_settings">Settings</string>
 </resources>
