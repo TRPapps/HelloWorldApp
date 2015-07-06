@@ -5,6 +5,7 @@ package com.trpapps.helloworldapp;
  */
 
 public class Beer {
+
     public Beer(String name, String alc) {
         this.name = name;
         this.alc = alc;
@@ -12,6 +13,10 @@ public class Beer {
 
     public String getName() {
         return name;
+    }
+
+    public String getAlc() {
+        return alc;
     }
 
     private String name;

@@ -82,7 +82,7 @@ public class BeerXmlParser {
 
     private static final String ns = null;
 
-    public List parse(InputStream in) throws XmlPullParserException, IOException {
+    public ArrayList parse(InputStream in) throws XmlPullParserException, IOException {
         try {
             XmlPullParser parser = Xml.newPullParser();
             parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false);
@@ -94,8 +94,8 @@ public class BeerXmlParser {
         }
     }
 
-    private List readBase(XmlPullParser parser) throws XmlPullParserException, IOException {
-        List entries = new ArrayList();
+    private ArrayList readBase(XmlPullParser parser) throws XmlPullParserException, IOException {
+        ArrayList entries = new ArrayList();
         parser.require(XmlPullParser.START_TAG, ns, "base");
         while (parser.next() != XmlPullParser.END_TAG) {
             if (parser.getEventType() != XmlPullParser.START_TAG) {
@@ -109,6 +109,7 @@ public class BeerXmlParser {
                 skip(parser);
             }
         }
+
         return entries;
     }
 }

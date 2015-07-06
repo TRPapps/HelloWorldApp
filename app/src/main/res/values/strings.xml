@@ -5,5 +5,9 @@
 
     <string name="pio_message">this message contains a BUG or a Feature, review is needed</string>
     <string name="Button_Name">this is button name</string>
+
     <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="search_hint">wyszukaj piwko!</string>
 </resources>
