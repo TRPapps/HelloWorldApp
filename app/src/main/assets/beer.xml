@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+    <base ver="02.07.2015">
+        <beer>
+            <name>Tyskie</name>
+            <alc>5.0</alc>
+            <ex>10.0</ex>
+            <producent>Kompania</producent>
+        </beer>
+        <beer>
+            <name>Tyskie2</name>
+            <alc>15.0</alc>
+        </beer>
+    </base>
