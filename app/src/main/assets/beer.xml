@@ -10,4 +10,24 @@
             <name>Tyskie2</name>
             <alc>15.0</alc>
         </beer>
+    <beer>
+        <name>Specjal</name>
+        <alc>5.0</alc>
+        <ex>10.0</ex>
+        <producent>Kompania</producent>
+    </beer>
+    <beer>
+        <name>Specjal2</name>
+        <alc>15.0</alc>
+    </beer>
+    <beer>
+        <name>Zywiec</name>
+        <alc>5.0</alc>
+        <ex>10.0</ex>
+        <producent>Kompania</producent>
+    </beer>
+    <beer>
+        <name>Zywiec2</name>
+        <alc>15.0</alc>
+    </beer>
     </base>

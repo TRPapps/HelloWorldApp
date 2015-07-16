@@ -48,7 +48,8 @@ public class BeersAdapter extends BaseAdapter implements Filterable {
                 if (constraint != null) {
                     if (orig != null && orig.size() > 0) {
                         for (final Beer g : orig) {
-                            if (g.getName().toLowerCase().contains(constraint.toString()))
+
+                            if (g.getName().toLowerCase().startsWith(constraint.toString()))
                                 results.add(g);
                         }
                     }

@@ -68,12 +68,12 @@ public class MainActivity extends ActionBarActivity implements SearchView.OnQuer
                 e.printStackTrace();
             }
 
-            if (beers != null &&
+            /*if (beers != null &&
                     beers.size() > 0) {
                 Beer firstBeer = (Beer) beers.get(0);
                 TextView tv = (TextView) findViewById(R.id.textView_1);
                 tv.setText(firstBeer.getName());
-            }
+            }*/
             }
         });
     }
